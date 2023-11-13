@@ -1,0 +1,9 @@
+Clean Architecture
+
+Camada de domínio (Domain):
+Onde ficam as regras de negócio
+	- Autenticação
+		- É definido como uma interface e não fica acoplado a nenhum tipo de implementação.
+
+Data layer:
+	- É onde a interface será implementada
